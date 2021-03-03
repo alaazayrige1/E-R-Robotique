@@ -2,9 +2,6 @@
 #include "PointeurLaser.h"
 #include "Robot_total.h"
 
-
-
-
 Thread thread_lidar;
 Thread thread_pointeurlaser;
 DigitalOut LedR(LED3, 0);
