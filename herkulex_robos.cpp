@@ -15,6 +15,9 @@ void servo_init()
     sv.setTorque(2, TORQUE_ON);
     sv.setTorque(3, TORQUE_ON);
     sv.setTorque(4, TORQUE_ON);
+    thread_droit.start(&bras_droit);
+    thread_droite.start(&bras_droite);
+    thread_gauche.start(&bras_gauche);
    
     
 }
