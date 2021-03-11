@@ -9,5 +9,6 @@
 
 void fonctionlidar();
 void fonctionpointeurlaser();
+void servo_init();
 
 #endif
