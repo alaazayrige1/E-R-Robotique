@@ -10,6 +10,7 @@ DigitalOut LedR(LED3, 0);
 // main() runs in its own thread in the OS
 int main()
 {
+    servo_init();
     thread_lidar.start(&fonctionlidar);
     thread_pointeurlaser.start(&fonctionpointeurlaser);
     Thread_Stockage_Variable_Un.start(&Fct_Stockage_Variable_Un);
