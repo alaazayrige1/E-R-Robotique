@@ -23,8 +23,10 @@ void bras_droit()
     {
         if(angle==0)
         {
-            sv.positionControl(1, 370, 50, GLED_ON);                                      sv.positionControl(2, 950, 50, GLED_ON);
-            sv.positionControl(3, 21, 50, GLED_ON);                                       sv.positionControl(4, 1000, 50, GLED_ON);
+            sv.positionControl(1, 370, 50, GLED_ON);                                      
+            sv.positionControl(2, 950, 50, GLED_ON);
+            sv.positionControl(3, 21, 50, GLED_ON);                                      
+            sv.positionControl(4, 1000, 50, GLED_ON);
             angle=1;
         }
         ThisThread::sleep_for(3000);
