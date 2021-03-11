@@ -3,7 +3,9 @@
 char angle=0;
 
 Herkulex sv(D1,D0, 115200);
-
+Thread thread_droit;
+Thread thread_droite;
+Thread thread_gauche;
 
 
 void servo_init()
