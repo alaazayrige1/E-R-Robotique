@@ -11,9 +11,6 @@ Thread thread_gauche;
 int main() 
 {       
     servo_init();
-    thread_droit.start(&bras_droit);
-    thread_droite.start(&bras_droite);
-    thread_gauche.start(&bras_gauche);
     
     while(1) 
     {
