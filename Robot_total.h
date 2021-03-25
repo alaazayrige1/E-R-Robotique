@@ -9,6 +9,9 @@
 
 void fonctionlidar();
 void fonctionpointeurlaser();
-void servo_init();
+void fonctionasser();
+void fonctiontempsmatch();
+void projection();
+
 
 #endif
